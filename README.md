@@ -13,7 +13,7 @@ There are several different modes.
 - **Normal Mode (default)**
 
 
-### Nightmare Mode
+##### Nightmare Mode
 
 - Player is smaller
 - Every jump the background changes color
