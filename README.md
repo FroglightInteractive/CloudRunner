@@ -18,13 +18,13 @@ There are several different modes.
 
 - Player is smaller
 - Every jump the background changes color
-- Camera may zoom in and out slowly/quickly  (W.I.P)
+- Camera zooms in/out every jump
 
 
 ##### Normal Mode
 
 - **Default Mode**
-- Is the mode the game starts one and gets defaulted to on restart
+- Is the mode the game starts on
 
 
 ##### Race Mode
@@ -37,4 +37,4 @@ There are several different modes.
 ##### Baby Mode
 
 - Player is larger than normal
-- Speed and gravity get faster at a slower rate than normal
+- Speed and gravity get larger at a slower rate than normal
