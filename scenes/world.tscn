@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://braj5jjxoim0x"]
+
+[ext_resource type="PackedScene" uid="uid://bhndlrfrvlddi" path="res://scenes/ground.tscn" id="1_aprco"]
+[ext_resource type="Script" path="res://scenes/world.gd" id="1_lei3c"]
+[ext_resource type="PackedScene" uid="uid://b482bs8drvgc1" path="res://scenes/player.tscn" id="2_a5o1i"]
+[ext_resource type="PackedScene" uid="uid://bu7ss55oapyn5" path="res://scenes/spawn_ground.tscn" id="2_gmkj6"]
+[ext_resource type="PackedScene" uid="uid://ds65wndyc5uec" path="res://scenes/hud.tscn" id="5_mptso"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_8e61l"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_lei3c")
+
+[node name="Player" parent="." instance=ExtResource("2_a5o1i")]
+position = Vector2(69, -44)
+
+[node name="SpawnGround" parent="." instance=ExtResource("2_gmkj6")]
+
+[node name="Ground" parent="SpawnGround" instance=ExtResource("1_aprco")]
+
+[node name="SurvivalTimer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[node name="HUD" parent="." instance=ExtResource("5_mptso")]
+
+[node name="Background" type="MeshInstance2D" parent="."]
+modulate = Color(0, 0.321569, 1, 1)
+z_index = -25
+position = Vector2(0, 1.00002)
+scale = Vector2(5440, 2642)
+mesh = SubResource("QuadMesh_8e61l")
+
+[connection signal="timeout" from="SurvivalTimer" to="." method="_on_survival_time_timeout"]
+[connection signal="baby_mode" from="HUD" to="." method="_on_hud_baby_mode"]
+[connection signal="baby_mode" from="HUD" to="Player" method="_on_hud_baby_mode"]
+[connection signal="nightmare_mode" from="HUD" to="." method="_on_hud_nightmare_mode"]
+[connection signal="nightmare_mode" from="HUD" to="Player" method="_on_hud_nightmare_mode"]
+[connection signal="normal_mode" from="HUD" to="." method="_on_hud_normal_mode"]
+[connection signal="normal_mode" from="HUD" to="Player" method="_on_hud_normal_mode"]
+[connection signal="restart" from="HUD" to="." method="_on_hud_restart"]

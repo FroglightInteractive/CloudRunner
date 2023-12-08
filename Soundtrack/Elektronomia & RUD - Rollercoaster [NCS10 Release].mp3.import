@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bo7uealvfi47t"
+path="res://.godot/imported/Elektronomia & RUD - Rollercoaster [NCS10 Release].mp3-ed898b19bf8b7594c58c29e1103edfd2.mp3str"
+
+[deps]
+
+source_file="res://Soundtrack/Elektronomia & RUD - Rollercoaster [NCS10 Release].mp3"
+dest_files=["res://.godot/imported/Elektronomia & RUD - Rollercoaster [NCS10 Release].mp3-ed898b19bf8b7594c58c29e1103edfd2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
