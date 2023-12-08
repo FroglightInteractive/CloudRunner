@@ -37,4 +37,5 @@ There are several different modes.
 ##### Baby Mode
 
 - Player is larger than normal
+- Game zooms out so that the player can see better
 - Speed and gravity get larger at a slower rate than normal
