@@ -9,7 +9,6 @@ In [normal mode](https://github.com/BosbesballonGames/CloudRunner/tree/main#norm
 There are several different modes.
 
 - Baby Mode
-- Race Mode
 - Nightmare Mode
 - **Normal Mode (default)**
 
@@ -27,13 +26,6 @@ There are several different modes.
 - **Default Mode**
 - Is the mode the game starts on
 - All settings reset
-
-
-##### Race Mode
-
-- AI player spawns and races the player
-- AI has some level of human error so that it is possible for the player to win
-- AI gets harder to beat the farther you get in game
 
 
 ##### Baby Mode
