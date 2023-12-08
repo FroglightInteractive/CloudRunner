@@ -1,7 +1,7 @@
 # CloudRunner
 
 Endless Runner where you jump on procedurally generated clouds.
-Every ten (10) seconds the speed & gravity of the player get multiplied by 1.1 so that you slowly have to have better reaction time
+In `normal mode` every ten (10) seconds the speed & gravity of the player get multiplied by 1.1 so that you slowly have to have better reaction time
 
 
 ## Modes
@@ -19,12 +19,14 @@ There are several different modes.
 - Player is smaller
 - Every jump the background changes color
 - Camera zooms in/out every jump
+- Speed & gravity get larger at a faster rate than normal
 
 
 ##### Normal Mode
 
 - **Default Mode**
 - Is the mode the game starts on
+- All settings reset
 
 
 ##### Race Mode
