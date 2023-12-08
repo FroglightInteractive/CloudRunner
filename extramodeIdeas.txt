@@ -1,7 +1,0 @@
-nightmare mode --- makes most jumps very hard; backgorund chroma-keys; player is substantially smaller; zoom changes slowly
-
-baby mode --- most jumps are fairly easy; character is a bit bigger
-
-????chase mode --- enemy that is behind player if it catches up, instant death????  maybe moving platforms????
-
-race mode --- ghost of player/ai player   also does the run like in chase mode but if it catches up, you don't die
