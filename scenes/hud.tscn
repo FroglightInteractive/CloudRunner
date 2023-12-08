@@ -67,15 +67,6 @@ offset_bottom = 162.0
 theme_override_font_sizes/font_size = 24
 text = "BABY MODE"
 
-[node name="Race" type="Button" parent="Modes"]
-layout_mode = 0
-offset_left = 16.0
-offset_top = 213.0
-offset_right = 161.0
-offset_bottom = 255.0
-theme_override_font_sizes/font_size = 24
-text = "RACE MODE"
-
 [node name="Nightmare" type="Button" parent="Modes"]
 layout_mode = 0
 offset_left = 16.0
