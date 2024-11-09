@@ -33,3 +33,7 @@ There are several different modes.
 - Player is larger than normal
 - Game zooms out so that the player can see better
 - Speed and gravity get larger at a slower rate than normal
+
+## MUSIC:
+- Elektronomia & RUD - Rollercoaster [NCS10 Release]
+- Elektronomia - Collide NCS - Copyright Free Music
